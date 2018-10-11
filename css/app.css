@@ -1,0 +1,82 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #bdc3c7;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  padding-top: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #fff;
+}
+
+.container {
+  margin-left: 25px;
+  margin-right: 25px
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+input {
+  padding: 10px;
+  color: #212121;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px 2px 2px 2px;
+}
+
+button {
+  padding: 10px;
+  border: 0 none;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+button#addtodo {
+  background-color: #007bff;
+}
+button#addtodo:hover {
+    background-color: #0069d9;
+}
+
+button#remAll {
+  background-color: #E0645C;
+  position: relative;
+  top: 20px;
+}
+
+button#remAll:hover {
+  background-color: #c95a52;
+}
+
+button.elimina {
+  padding: 5px;
+  font-size: 13px;
+  margin-left: 10px;
+  font-weight: 700;
+  background: #E0645C;
+  position: relative;
+  top: -7px;
+}
+.blocco-completato{
+  border-top: 2px solid #000;
+  padding-top: 10px;
+  margin-top: 2em
+}
+.invisible {
+  visibility: hidden;
+  overflow: hidden;
+  height: 0;
+}
